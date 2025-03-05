@@ -1,0 +1,435 @@
+/*
+  ##Device = Large notebooks and desktops
+  ##Screen = B/w 1200px or more
+*/
+
+@media (min-width: 1200px) {
+  :root {
+    /* header */
+    --header-width: 1200px;
+    --header-display: flex;
+
+    /* presentation-section */
+    --presentation-section-width: 1200px;
+    --presentation-section-display: flex;
+    --presentation-section-flex-direction: row;
+    --presentation-section-justify-content: center;
+    --presentation-section-align-items: center;
+    --presentation-section-margin-top: 72px;
+    --first-presentation-subsection-width: 560px;
+    --first-presentation-subsection-display: flex;
+    --first-presentation-subsection-flex-direction: column;
+    --first-presentation-subsection-align-items: end;
+    --logo-image-width: 380px;
+    --logo-image-heigth: 370px;
+    --presentation-title-font-size: 56px;
+    --presentation-text-align: end;
+    --presentation-description-font-size: 18px;
+    --presentation-description-text-align: end;
+    --presentation-image-margin-left: 80px;
+    --presentation-image-margin-top: 0px;
+    --presentation-image-width: 560px;
+    --presentation-image-heigth: 640px;
+
+    /* item details section  */
+    --item-details-section-width: 1200px;
+    --item-details-title-text-align: center;
+    --item-details-title-font-size: 64px;
+    --item-details-width: 1200px;
+    --item-details-display: flex;
+    --item-details-flex-direction: row;
+    --extrator-details-flex-direction: row;
+    --polisher-details-flex-direction: row;
+    --rotating-brush-details-flex-direction: row;
+    --spray-details-flex-direction: row;
+    --cleaning-product-details-flex-direction: row;
+    --item-details-justify-content: center;
+    --item-details-align-items: center;
+    --item-details-gap: 80px;
+    --item-image-max-heigth: 560px;
+    --item-image-max-width: 640px;
+    --item-title-font-size: 48px;
+    --item-title-text-align: start;
+    --item-description-text-align: start;
+    --item-description-font-size: 18px;
+
+    /* advantages section */
+    --advantages-section-width: 1200px;
+    --advantages-title-width: 768px;
+    --advantages-title-font-size: 40px;
+    --advantage-boxes-flex-direction: row;
+
+    /* price section */
+    --price-section-width: 1200px;
+    --price-section-gap: 72px;
+    --price-subsection-flex-direction: row;
+    --price-subsection-justify-content: space-around;
+    --price-subsection-heigth: 230px;
+    --price-description-width: 560px;
+    --price-description-text-align: start;
+    --price-value-text-align: center;
+
+    /* feedback section */
+    --feedback-section-width: 1200px;
+    --feedback-description-width: 560px;
+    --feedback-boxes-flex-direction: row;
+    --feedback-subsection-width: 380px;
+
+    /* faq section */
+    --faq-section-width: 768px;
+
+    /* whatsapp button */
+    --whatsapp-button-position: fixed;
+    --whatsapp-button-width: 240px;
+    --whatsapp-button-top: 520px;
+    --whatsapp-button-right: 50px;
+  }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1199px
+*/
+@media (min-width: 1025px) and (max-width: 1199px) {
+  :root {
+    /* header */
+    --header-width: 1025px;
+    --header-display: flex;
+
+    /* presentation-section */
+    --presentation-section-width: 1025px;
+    --presentation-section-display: flex;
+    --presentation-section-flex-direction: row;
+    --presentation-section-justify-content: center;
+    --presentation-section-align-items: center;
+    --presentation-section-margin-top: 72px;
+    --first-presentation-subsection-width: 560px;
+    --first-presentation-subsection-display: flex;
+    --first-presentation-subsection-flex-direction: column;
+    --first-presentation-subsection-align-items: end;
+    --logo-image-width: 380px;
+    --logo-image-heigth: 370px;
+    --presentation-title-font-size: 56px;
+    --presentation-text-align: end;
+    --presentation-description-font-size: 18px;
+    --presentation-description-text-align: end;
+    --presentation-image-margin-left: 80px;
+    --presentation-image-margin-top: 0px;
+    --presentation-image-width: 560px;
+    --presentation-image-heigth: 640px;
+
+    /* item details section  */
+    --item-details-section-width: 1025px;
+    --item-details-title-text-align: center;
+    --item-details-title-font-size: 64px;
+    --item-details-width: 1025px;
+    --item-details-display: flex;
+    --item-details-flex-direction: row;
+    --extrator-details-flex-direction: row;
+    --polisher-details-flex-direction: row;
+    --rotating-brush-details-flex-direction: row;
+    --spray-details-flex-direction: row;
+    --cleaning-product-details-flex-direction: row;
+    --item-details-justify-content: center;
+    --item-details-align-items: center;
+    --item-details-gap: 80px;
+    --item-image-max-heigth: 560px;
+    --item-image-max-width: 640px;
+    --item-title-font-size: 48px;
+    --item-title-text-align: start;
+    --item-description-text-align: start;
+    --item-description-font-size: 18px;
+
+    /* advantages section */
+    --advantages-section-width: 1025px;
+    --advantages-title-width: 768px;
+    --advantages-title-font-size: 40px;
+    --advantage-boxes-flex-direction: row;
+
+    /* price section */
+    --price-section-width: 1025px;
+    --price-section-gap: 72px;
+    --price-subsection-flex-direction: row;
+    --price-subsection-justify-content: space-around;
+    --price-subsection-heigth: 230px;
+    --price-description-width: 560px;
+    --price-description-text-align: start;
+    --price-value-text-align: center;
+
+    /* feedback section */
+    --feedback-section-width: 1025px;
+    --feedback-description-width: 560px;
+    --feedback-boxes-flex-direction: row;
+    --feedback-subsection-width: 380px;
+
+    /* faq section */
+    --faq-section-width: 768px;
+
+    /* whatsapp button */
+    --whatsapp-button-position: fixed;
+    --whatsapp-button-width: 240px;
+    --whatsapp-button-top: 520px;
+    --whatsapp-button-right: 50px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  :root {
+    /* header */
+    --header-width: 768px;
+    --header-display: none;
+
+    /* presentation-section */
+    --presentation-section-width: 768px;
+    --presentation-section-display: flex;
+    --presentation-section-flex-direction: column;
+    --presentation-section-justify-content: center;
+    --presentation-section-align-items: center;
+    --presentation-section-margin-top: 0px;
+    --first-presentation-subsection-width: 560px;
+    --first-presentation-subsection-display: flex;
+    --first-presentation-subsection-flex-direction: column;
+    --first-presentation-subsection-align-items: center;
+    --logo-image-width: 380px;
+    --logo-image-heigth: 370px;
+    --presentation-title-font-size: 56px;
+    --presentation-text-align: center;
+    --presentation-description-font-size: 18px;
+    --presentation-description-text-align: center;
+    --presentation-image-margin-left: 0px;
+    --presentation-image-margin-top: 24px;
+    --presentation-image-width: 560px;
+    --presentation-image-heigth: 640px;
+
+    /* item details section  */
+    --item-details-section-width: 768px;
+    --item-details-title-text-align: center;
+    --item-details-title-font-size: 64px;
+    --item-details-width: 768px;
+    --item-details-display: flex;
+    --item-details-flex-direction: column;
+    --extrator-details-flex-direction: column;
+    --polisher-details-flex-direction: column-reverse;
+    --rotating-brush-details-flex-direction: column;
+    --spray-details-flex-direction: column-reverse;
+    --cleaning-product-details-flex-direction: column;
+    --item-details-justify-content: center;
+    --item-details-align-items: center;
+    --item-details-gap: 24px;
+    --item-image-max-heigth: 560px;
+    --item-image-max-width: 640px;
+    --item-title-font-size: 48px;
+    --item-title-text-align: center;
+    --item-description-text-align: center;
+    --item-description-font-size: 18px;
+
+    /* advantages section */
+    --advantages-section-width: 768px;
+    --advantages-title-width: 768px;
+    --advantages-title-font-size: 40px;
+    --advantage-boxes-flex-direction: column;
+
+    /* price section */
+    --price-section-width: 768px;
+    --price-section-gap: 0px;
+    --price-subsection-flex-direction: column;
+    --price-subsection-justify-content: space-evenly;
+    --price-subsection-heigth: 384px;
+    --price-description-width: 700px;
+    --price-description-text-align: center;
+    --price-value-text-align: center;
+
+    /* feedback section */
+    --feedback-section-width: 768px;
+    --feedback-description-width: 560px;
+    --feedback-boxes-flex-direction: column;
+    --feedback-subsection-width: 380px;
+
+    /* faq section */
+    --faq-section-width: 700px;
+
+    /* whatsapp button */
+    --whatsapp-button-position: fixed;
+    --whatsapp-button-width: 240px;
+    --whatsapp-button-top: 520px;
+    --whatsapp-button-right: 50px;
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 768px) {
+  :root {
+    /* header */
+    --header-width: 481px;
+    --header-display: none;
+
+    /* presentation-section */
+    --presentation-section-width: 481px;
+    --presentation-section-display: flex;
+    --presentation-section-flex-direction: column;
+    --presentation-section-justify-content: center;
+    --presentation-section-align-items: center;
+    --presentation-section-margin-top: 0px;
+    --first-presentation-subsection-width: 481px;
+    --first-presentation-subsection-display: flex;
+    --first-presentation-subsection-flex-direction: column;
+    --first-presentation-subsection-align-items: center;
+    --logo-image-width: 330px;
+    --logo-image-heigth: 320px;
+    --presentation-title-font-size: 56px;
+    --presentation-text-align: center;
+    --presentation-description-font-size: 18px;
+    --presentation-description-text-align: center;
+    --presentation-image-margin-left: 0px;
+    --presentation-image-margin-top: 24px;
+    --presentation-image-width: 420px;
+    --presentation-image-heigth: 500px;
+
+    /* item details section  */
+    --item-details-section-width: 481px;
+    --item-details-title-text-align: center;
+    --item-details-title-font-size: 64px;
+    --item-details-width: 481px;
+    --item-details-display: flex;
+    --item-details-flex-direction: column;
+    --extrator-details-flex-direction: column;
+    --polisher-details-flex-direction: column-reverse;
+    --rotating-brush-details-flex-direction: column;
+    --spray-details-flex-direction: column-reverse;
+    --cleaning-product-details-flex-direction: column;
+    --item-details-justify-content: center;
+    --item-details-align-items: center;
+    --item-details-gap: 24px;
+    --item-image-max-heigth: 520px;
+    --item-image-max-width: 400px;
+    --item-title-font-size: 48px;
+    --item-title-text-align: center;
+    --item-description-text-align: center;
+    --item-description-font-size: 18px;
+
+    /* advantages section */
+    --advantages-section-width: 481px;
+    --advantages-title-width: 481px;
+    --advantages-title-font-size: 40px;
+    --advantage-boxes-flex-direction: column;
+
+    /* price section */
+    --price-section-width: 481px;
+    --price-section-gap: 0px;
+    --price-subsection-flex-direction: column;
+    --price-subsection-justify-content: space-evenly;
+    --price-subsection-heigth: 400px;
+    --price-description-width: 481px;
+    --price-description-text-align: center;
+    --price-value-text-align: center;
+
+    /* feedback section */
+    --feedback-section-width: 481px;
+    --feedback-description-width: 481px;
+    --feedback-boxes-flex-direction: column;
+    --feedback-subsection-width: 380px;
+
+    /* faq section */
+    --faq-section-width: 440px;
+
+    /* whatsapp button */
+    --whatsapp-button-position: fixed;
+    --whatsapp-button-width: 200px;
+    --whatsapp-button-top: 400px;
+    --whatsapp-button-right: 10px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  :root {
+    /* header */
+    --header-width: 320px;
+    --header-display: none;
+
+    /* presentation-section */
+    --presentation-section-width: 320px;
+    --presentation-section-display: flex;
+    --presentation-section-flex-direction: column;
+    --presentation-section-justify-content: center;
+    --presentation-section-align-items: center;
+    --presentation-section-margin-top: 0px;
+    --first-presentation-subsection-width: 320px;
+    --first-presentation-subsection-display: flex;
+    --first-presentation-subsection-flex-direction: column;
+    --first-presentation-subsection-align-items: center;
+    --logo-image-width: 280px;
+    --logo-image-heigth: 270px;
+    --presentation-title-font-size: 56px;
+    --presentation-text-align: center;
+    --presentation-description-font-size: 18px;
+    --presentation-description-text-align: center;
+    --presentation-image-margin-left: 0px;
+    --presentation-image-margin-top: 24px;
+    --presentation-image-width: 300px;
+    --presentation-image-heigth: 380px;
+
+    /* item details section  */
+    --item-details-section-width: 320px;
+    --item-details-title-text-align: center;
+    --item-details-title-font-size: 48px;
+    --item-details-width: 320px;
+    --item-details-display: flex;
+    --item-details-flex-direction: column;
+    --extrator-details-flex-direction: column;
+    --polisher-details-flex-direction: column-reverse;
+    --rotating-brush-details-flex-direction: column;
+    --spray-details-flex-direction: column-reverse;
+    --cleaning-product-details-flex-direction: column;
+    --item-details-justify-content: center;
+    --item-details-align-items: center;
+    --item-details-gap: 24px;
+    --item-image-max-heigth: 380px;
+    --item-image-max-width: 300px;
+    --item-title-font-size: 48px;
+    --item-title-text-align: center;
+    --item-description-text-align: center;
+    --item-description-font-size: 18px;
+
+    /* advantages section */
+    --advantages-section-width: 320px;
+    --advantages-title-width: 320px;
+    --advantages-title-font-size: 40px;
+    --advantage-boxes-flex-direction: column;
+
+    /* price section */
+    --price-section-width: 320px;
+    --price-section-gap: 0px;
+    --price-subsection-flex-direction: column;
+    --price-subsection-justify-content: space-evenly;
+    --price-subsection-heigth: 800px;
+    --price-description-width: 320px;
+    --price-description-text-align: center;
+    --price-value-text-align: center;
+
+    /* feedback section */
+    --feedback-section-width: 320px;
+    --feedback-description-width: 320px;
+    --feedback-boxes-flex-direction: column;
+    --feedback-subsection-width: 300px;
+
+    /* faq section */
+    --faq-section-width: 300px;
+
+    /* whatsapp button */
+    --whatsapp-button-position: fixed;
+    --whatsapp-button-width: 200px;
+    --whatsapp-button-top: 300px;
+    --whatsapp-button-right: 10px;
+  }
+}

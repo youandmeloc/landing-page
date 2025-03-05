@@ -1,0 +1,406 @@
+@import url("./variables-style.css");
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-Light.ttf");
+}
+
+* {
+  font-family: Roboto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  height: 72px;
+  width: var(--header-width);
+  display: var(--header-display);
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #04346c;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.header-link {
+  cursor: pointer;
+}
+
+.presentation-section {
+  width: var(--presentation-section-width);
+  display: var(--presentation-section-display);
+  flex-direction: var(--presentation-section-flex-direction);
+  justify-content: var(--presentation-section-justify-content);
+  align-items: var(--presentation-section-align-items);
+  margin-top: var(--presentation-section-margin-top);
+}
+
+.first-presentation-subsection {
+  width: var(--first-presentation-subsection-width);
+  display: var(--first-presentation-subsection-display);
+  flex-direction: var(--first-presentation-subsection-flex-direction);
+  align-items: var(--first-presentation-subsection-align-items);
+}
+
+.logo-image {
+  max-width: var(--logo-image-width);
+  max-height: var(--logo-image-heigth);
+  height: auto;
+  width: auto;
+}
+
+.presentation-title {
+  margin-top: 24px;
+  font-size: var(--presentation-title-font-size);
+  font-weight: bold;
+  color: #032348;
+  text-align: var(--presentation-text-align);
+}
+
+.presentation-description {
+  margin-top: 24px;
+  font-size: var(--presentation-description-font-size);
+  text-align: var(--presentation-description-text-align);
+  color: #04346c;
+  font-weight: bold;
+}
+
+.presentation-image {
+  margin-left: var(--presentation-image-margin-left);
+  margin-top: var(--presentation-image-margin-top);
+  max-width: var(--presentation-image-width);
+  height: var(--presentation-image-heigth);
+  width: auto;
+}
+
+.items-details-section {
+  margin-top: 80px;
+  width: var(--item-details-section-width);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 72px;
+}
+
+.items-details-title {
+  width: 65%;
+  text-align: var(--item-details-title-text-align);
+  font-size: var(--item-details-title-font-size);
+  font-weight: bold;
+  color: #032348;
+}
+
+.item-details {
+  width: var(--item-details-width);
+  display: flex;
+  flex-direction: var(--item-details-flex-direction);
+  justify-content: center;
+  align-items: center;
+  gap: var(--item-details-gap);
+}
+
+#extractor-details {
+  display: flex;
+  flex-direction: var(--extrator-details-flex-direction);
+}
+
+#polisher-details {
+  display: flex;
+  flex-direction: var(--polisher-details-flex-direction);
+}
+
+#rotating-brush-details {
+  display: flex;
+  flex-direction: var(--rotating-brush-details-flex-direction);
+}
+
+#spray-details {
+  display: flex;
+  flex-direction: var(--spray-details-flex-direction);
+}
+
+#cleaning-product-details {
+  display: flex;
+  flex-direction: var(--cleaning-product-details-flex-direction);
+}
+
+.item-image {
+  max-height: var(--item-image-max-heigth);
+  max-width: var(--item-image-max-width);
+  height: auto;
+  width: auto;
+}
+
+.item-title {
+  font-size: var(--item-title-font-size);
+  font-weight: bold;
+  text-align: var(--item-title-text-align);
+  color: #04346c;
+}
+
+.item-description {
+  margin-top: 24px;
+  font-size: var(--item-description-font-size);
+  font-weight: bold;
+  text-align: var(--item-description-text-align);
+  color: #04346c;
+}
+
+.advantages-section {
+  width: var(--advantages-section-width);
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.advantages-title {
+  width: var(--advantages-title-width);
+  font-size: var(--advantages-title-font-size);
+  font-weight: bold;
+  color: #032348;
+  text-align: center;
+}
+
+.advantage-boxes {
+  display: flex;
+  flex-direction: var(--advantage-boxes-flex-direction);
+  justify-content: center;
+  gap: 48px;
+  margin-top: 72px;
+}
+
+.advantage-subsection {
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.advantage-image {
+  max-width: 48px;
+  max-height: 48px;
+  width: auto;
+  height: auto;
+}
+
+.advantage-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #032348;
+  margin-top: 24px;
+}
+
+.advantage-description {
+  font-size: 18px;
+  font-weight: bold;
+  color: #04346c;
+  margin-top: 24px;
+}
+
+.price-section {
+  width: var(--price-section-width);
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--price-section-gap);
+}
+
+.price-subsection {
+  display: flex;
+  flex-direction: var(--price-subsection-flex-direction);
+  justify-content: var(--price-subsection-justify-content);
+  align-items: center;
+  height: var(--price-subsection-heigth);
+}
+
+.price-description {
+  width: var(--price-description-width);
+  font-size: 48px;
+  font-weight: bold;
+  text-align: var(--price-description-text-align);
+  color: #04346c;
+}
+
+.price-value {
+  font-size: 72px;
+  font-weight: bold;
+  color: #032348;
+  text-align: var(--price-value-text-align);
+}
+
+.feedback-section {
+  width: var(--feedback-section-width);
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedback-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #04346c;
+}
+
+.feedback-title span {
+  color: #032348;
+}
+
+.feedback-description {
+  margin-top: 24px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #04346c;
+  width: var(--feedback-description-width);
+  text-align: center;
+}
+
+.feedback-boxes {
+  width: 100%;
+  margin-top: 64px;
+  gap: 32px;
+  display: flex;
+  flex-direction: var(--feedback-boxes-flex-direction);
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback-subsection {
+  width: var(--feedback-subsection-width);
+}
+
+.stars-area img {
+  max-width: 20px;
+  max-height: 20px;
+  height: auto;
+  width: auto;
+}
+
+.client-feedback {
+  margin-top: 32px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #04346c;
+}
+
+.client-subsection {
+  margin-top: 32px;
+  gap: 16px;
+}
+
+.client-image {
+  max-width: 56px;
+  max-height: 56px;
+  width: auto;
+  height: auto;
+}
+
+.client-name {
+  color: #04346c;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.faq-section {
+  width: var(--faq-section-width);
+  margin-top: 80px;
+}
+
+.faq-title {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  color: #04346c;
+}
+
+.faq-boxes {
+  margin-top: 64px;
+}
+
+.faq-subsection {
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid #032348;
+}
+
+#last-question {
+  border-bottom: 2px solid #032348;
+}
+
+.question-title {
+  height: 64px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #032348;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.question-response {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #04346c;
+  margin-bottom: 16px;
+}
+
+.response-list {
+  list-style-position: inside;
+  margin-left: 16px;
+}
+
+.contact-us {
+  margin-top: 80px;
+}
+
+.contact-us-title {
+  text-align: center;
+  color: #04346c;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.social-networks {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.whatsapp-button {
+  border: 2px solid green;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  width: var(--whatsapp-button-width);
+  top: var(--whatsapp-button-top);
+  right: var(--whatsapp-button-right);
+}
+
+.whatsapp-button:hover {
+  border: 2px solid rgb(29, 255, 29);
+  cursor: pointer;
+}
