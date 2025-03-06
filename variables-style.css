@@ -81,7 +81,7 @@
     /* whatsapp button */
     --whatsapp-button-position: fixed;
     --whatsapp-button-width: 240px;
-    --whatsapp-button-top: 520px;
+    --whatsapp-button-bottom: 50px;
     --whatsapp-button-right: 50px;
   }
 }
@@ -168,7 +168,7 @@
     /* whatsapp button */
     --whatsapp-button-position: fixed;
     --whatsapp-button-width: 240px;
-    --whatsapp-button-top: 520px;
+    --whatsapp-button-bottom: 50px;
     --whatsapp-button-right: 50px;
   }
 }
@@ -255,7 +255,7 @@
     /* whatsapp button */
     --whatsapp-button-position: fixed;
     --whatsapp-button-width: 240px;
-    --whatsapp-button-top: 520px;
+    --whatsapp-button-bottom: 50px;
     --whatsapp-button-right: 50px;
   }
 }
@@ -342,7 +342,7 @@
     /* whatsapp button */
     --whatsapp-button-position: fixed;
     --whatsapp-button-width: 200px;
-    --whatsapp-button-top: 400px;
+    --whatsapp-button-bottom: 20px;
     --whatsapp-button-right: 10px;
   }
 }
@@ -428,8 +428,8 @@
 
     /* whatsapp button */
     --whatsapp-button-position: fixed;
-    --whatsapp-button-width: 200px;
-    --whatsapp-button-top: 300px;
+    --whatsapp-button-width: 160px;
+    --whatsapp-button-bottom: 10px;
     --whatsapp-button-right: 10px;
   }
 }
