@@ -28,11 +28,12 @@ header {
 }
 
 a {
+  color: #032348;
   text-decoration: none;
 }
 
 a:visited {
-  color: inherit;
+  color: #032348;
 }
 
 .header-link {
