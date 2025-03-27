@@ -28,8 +28,8 @@
     --presentation-description-text-align: end;
     --presentation-image-margin-left: 80px;
     --presentation-image-margin-top: 0px;
-    --presentation-image-width: 560px;
-    --presentation-image-heigth: 640px;
+    --presentation-image-width: 580px;
+    --presentation-image-heigth: 620px;
 
     /* item details section  */
     --item-details-section-width: 1200px;
@@ -342,7 +342,7 @@
     /* whatsapp button */
     --whatsapp-button-position: fixed;
     --whatsapp-button-width: 200px;
-    --whatsapp-button-bottom: 20px;
+    --whatsapp-button-bottom: 50px;
     --whatsapp-button-right: 10px;
   }
 }
@@ -429,7 +429,7 @@
     /* whatsapp button */
     --whatsapp-button-position: fixed;
     --whatsapp-button-width: 160px;
-    --whatsapp-button-bottom: 10px;
+    --whatsapp-button-bottom: 50px;
     --whatsapp-button-right: 10px;
   }
 }
